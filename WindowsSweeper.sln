@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsSweeper", "WindowsSweeper\WindowsSweeper.csproj", "{A3BE5283-2CE3-4EAA-818D-F3511FE0B161}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA711E95-9B4D-47DD-9F66-73456703C45A}"
+	ProjectSection(SolutionItems) = preProject
+		README = README
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyTest", "DummyTest\DummyTest.csproj", "{3897A249-6E06-480E-A641-CDE29C828A73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +20,10 @@ Global
 		{A3BE5283-2CE3-4EAA-818D-F3511FE0B161}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3BE5283-2CE3-4EAA-818D-F3511FE0B161}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3BE5283-2CE3-4EAA-818D-F3511FE0B161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3897A249-6E06-480E-A641-CDE29C828A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3897A249-6E06-480E-A641-CDE29C828A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3897A249-6E06-480E-A641-CDE29C828A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3897A249-6E06-480E-A641-CDE29C828A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
